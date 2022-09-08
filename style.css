@@ -1,0 +1,68 @@
+*{
+	background: color #333;;
+}
+.titre{
+	font-size: 40px;
+	text-align: center;
+	color: blue;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.paragraphe{
+	width: 600px;
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffff;
+	border: 10px solid white;
+	height: 300px;	
+	width: 400px;
+	position: relative;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 2px 5px 8px 10px rgb(238, 217, 217),
+	2px 12px 2px 2px white;;
+	
+}
+input{
+	
+	color: black;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width: 300px;
+	margin-top: 10px;
+	height: 40px;
+	border-radius: 10px;
+	position: relative;
+	
+	bottom: 20px;
+	background: none;
+	border: none;
+	border: 2px solid white;
+	
+}
+a{
+	position: relative;
+	bottom: 15px;
+	color: blue;
+	text-decoration: none;
+	cursor: pointer;
+}
+p{text-align: center;}
+.btnn{
+	background-color: green;
+	color: white;
+	height: 60px;
+	cursor: pointer;
+}
+.btn{
+	background-color: blue;
+	color: white;
+	height: 60px;
+	cursor: pointer;
+}
